@@ -1,0 +1,71 @@
+
+.novedades {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.novedades__titulo {
+    width: 95%;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-left: 5%;
+
+}
+
+.novedades__contenedor {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.novedades__card {
+    width: calc(90% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+
+.card__etiqueta {
+    width: 25%;
+    padding: 0.1rem 0.2rem;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: var(--fuenteSecundaria);
+    color: var(--colorTexto);
+    background-color: var(--colorDetalles);
+}
+                    
+.card__imagen {
+    width: 100%;
+}
+
+.card__descripcion {
+    width: 100%;
+    font-family: var(--fuenteSecundaria);
+    text-align: start;
+}
+
+.card__coleccion  {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+/* .card__item {
+
+} */
+
+.card__precio {
+    font-size: 0.8rem;
+}
+
+.card__pago {
+    color: var(--colorTexto4);
+    font-size: 0.6rem;
+}
+
+
+

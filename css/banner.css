@@ -1,0 +1,42 @@
+.banner {
+    width: 100%;
+    height: 27vw;
+    display: flex;
+    top: 0
+}
+
+.banner__imagen {
+    background: url('../multimedia/funkos-banner.webp');
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner__descripcion {
+    width: 28%;
+    height: 12vw;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+
+.banner__titulo {
+    text-transform: capitalize;
+    color: var(--colorTexto);
+    margin: 0;
+}
+
+.banner__texto {
+    color: var(--colorTexto);
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+
+.banner__boton {
+    width: 50%;
+    background-color: var(--colorTexto);
+    border: none;
+    border-radius: 50px;
+    padding: 0.4rem;
+    text-transform: uppercase;
+}

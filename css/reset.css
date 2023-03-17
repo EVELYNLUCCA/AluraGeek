@@ -1,0 +1,27 @@
+:root {
+    --colorTexto: #FFFFFF;
+    --colorTexto2: #111111;
+    --colorTexto3: #333333;
+    --colorTexto4: #1D84B5;
+    --colorFondo: #30343F;
+    --colorDetalles: #FF3333;
+
+    --fuentePrincipal:'Raleway', sans-serif; 
+    --fuenteSecudaria: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fuentePrincipal);
+}
+
+h1, h2, h3, h4,h5, h6, div {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* * {
+    border: 1px solid red;
+} */
