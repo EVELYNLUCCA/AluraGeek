@@ -31,6 +31,7 @@ tecnologías y herramientas:
 - Arquitectura MVC
 - Template Engines
 - MySQL y Gestores de BBDD
+
 Puedes encontrar los diseños realizados en FIGMA de cada vista
 del sitio en el siguiente enlace a los diseños. Recuerda que para
 poder navegar sobre ellos debes tener una cuenta.
@@ -39,4 +40,5 @@ adquiriendo para desarrollar este proyecto.
 Cuentas con todo el equipo y el material teórico suministrado
 para apoyarte cada vez que encuentres un bloqueo o no sepas
 como realizar algo.
+
 ¡Mucha suerte en este desafío!
