@@ -7,8 +7,8 @@
     <title>FunkoShop</title>
     
     <!-- link fuentes -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,500&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;500;700&display=swap" rel="stylesheet"> 
 
     <!-- link css -->
     <link rel="stylesheet" href="./css/reset.css">
@@ -24,7 +24,15 @@
 
         <div class="nav__container">
             <ul class="nav">
-                <li class="nav__item"><a class="nav__link" href="#">shop</a></li>
+                <li class="nav__item nav__item--submenu">
+                    <a class="nav__link" href="#">shop
+                        <img class="nav__icono" src="../../multimedia/icons/Vector.webp" alt="flecha">
+                    </a>
+                    <ul class="nav__subnav">
+                        <li class="subnav__item"><a class="subnav__link" href="#">coleccion</a></li>
+                        <li class="subnav__item"><a class="subnav__link" href="#">figuras</a></li>
+                    </ul>
+                </li>
                 <li class="nav__item"><a class="nav__link" href="#">contacto</a></li>
                 <li class="nav__item"><a class="nav__link" href="#">login</a></li>
             </ul>
@@ -47,13 +55,13 @@
             <div class="coleccion">
                 <img src="./multimedia/star-wars/baby-yoda-1.webp" alt="bebe yoda" class="coleccion__imagen">
                 <div class="coleccion__descripcion">
-                    <h2 class="descripcion__titulo">star wars & the mandalorian</h2>
+                    <h2 class="descripcion__titulo">star wars &<br>the mandalorian</h2>
                     <p class="descripcion__texto">Disfruta de una saga que sigue agregando personajes a su colección.</p>
                     <hr class="descripcion__linea">
                     <button class="descripcion__boton">ver colección</button>
                 </div>
             </div>
-            <div class="coleccion">
+            <div class="coleccion coleccion--reverse">
                 <img src="./multimedia/pokemon/vulpix-1.webp" alt="vulpix" class="coleccion__imagen">
                 <div class="coleccion__descripcion">
                     <h2 class="descripcion__titulo">pokemon indigo</h2>
@@ -71,12 +79,12 @@
                     <button class="descripcion__boton">ver colección</button>
                 </div>
             </div>
-
         </section>
 
         <section class="novedades">
             <h2 class="novedades__titulo">últimos lanzamientos</h2>
             <div class="novedades__contenedor">
+                <button class="novedades__flecha novedades__flecha--izquierda"><img class="flecha flecha--izquierda" src="../../multimedia/icons/Vector-1-_Stroke_.webp" alt="flecha"></button>
                 <div class="novedades__card">
                     <p class="card__etiqueta">nuevo</p>
                     <img src="./multimedia/star-wars/trooper-1.webp" alt="trooper" class="card__imagen">
@@ -84,7 +92,7 @@
                         <p class="card__coleccion">star wars</p>
                         <h4 class="card__item">STORMTROOPER LIGHTSABER</h4>
                         <p class="card__precio">$ 1799,99.-</p>
-                        <p class="card__pago">3 CUOTAS SIN INTERÉS</p>
+                        <p class="card__pago">3 cuotas sin interés</p>
                     </div>
                 </div>
                 <div class="novedades__card">
@@ -94,7 +102,7 @@
                         <p class="card__coleccion">pokemon</p>
                         <h4 class="card__item">PIDGEOTTO</h4>
                         <p class="card__precio">$ 1799,99.-</p>
-                        <p class="card__pago">3 CUOTAS SIN INTERÉS</p>
+                        <p class="card__pago">3 cuotas sin interés</p>
                     </div>
                 </div>
                 <div class="novedades__card">
@@ -104,11 +112,11 @@
                         <p class="card__coleccion">harry potter</p>
                         <h4 class="card__item">LUNA LOVEGOOD LION MASK</h4>
                         <p class="card__precio">$ 1799,99.-</p>
-                        <p class="card__pago">3 CUOTAS SIN INTERÉS</p>
+                        <p class="card__pago">3 cuotas sin interés</p>
                     </div>
                 </div>
+                <button class="novedades__flecha novedades__flecha--derecha"><img class="flecha flecha--derecha" src="../../multimedia/icons/Vector-1-_Stroke_.webp" alt="flecha"></button>
             </div>
-
         </section>
     </main>
 

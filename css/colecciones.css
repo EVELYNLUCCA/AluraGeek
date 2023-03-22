@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-.coleccion:first-of-type + .coleccion {
+.coleccion--reverse {
     flex-direction: row;
 }
 
@@ -31,19 +31,21 @@
 .descripcion__titulo {
     width: 65%;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--colorTexto2);
-    font-weight:lighter;
+    font-weight:700;
 }
 
 .descripcion__texto {
-    width: 65%;
-     font-weight:lighter;
-     color: var(--colorTexto3);
+    width: 80%;
+    color: var(--colorTexto3);
+    font-size: 2rem;
+    font-weight:300;
+    margin-bottom: 1rem;
 }
 
 .descripcion__linea {
-    border: 2px solid var(--colorDetalles);
+    border: 1px solid var(--colorDetalles);
 }
 
 .descripcion__boton {
@@ -51,8 +53,9 @@
     text-transform: uppercase;
     color: var(--colorTexto);
     background-color: var(--colorFondo);
-    padding: 0.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
     border-radius: 50px;
     border: none;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
 }

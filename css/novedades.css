@@ -4,36 +4,75 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 5rem;
 }
 
 .novedades__titulo {
     width: 95%;
     text-transform: uppercase;
-    font-size: 2rem;
-    padding-left: 5%;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 
 }
 
 .novedades__contenedor {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.novedades__flecha {
+    width: 36px;
+    height: 37px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.17);
+    border-radius: 4px;
+    z-index: 2;
+}
+
+.flecha {
+    width: 9px;
+    height: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.novedades__flecha--izquierda {
+    position: absolute;
+    left: 36px;
+}
+
+.flecha--izquierda {
+    transform: rotate(180deg);
+}
+
+.novedades__flecha--derecha {
+    position: absolute;
+    right: 36px;
+}
+
+.card__link {
+    width: calc(90% / 3);
+    text-decoration: none;
+    color: var(--colorTexto3);
 }
 
 .novedades__card {
-    width: calc(90% / 3);
     display: flex;
     flex-direction: column;
     align-items:flex-end;
+    margin-bottom: 2rem;
 }
 
 .card__etiqueta {
-    width: 25%;
-    padding: 0.1rem 0.2rem;
-    right: 0;
+    width: 20%;   
+    padding: 1rem 0;
+    left: 0;
     text-align: center;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    font-weight: 700;
     font-family: var(--fuenteSecundaria);
     color: var(--colorTexto);
     background-color: var(--colorDetalles);
@@ -52,19 +91,24 @@
 .card__coleccion  {
     text-transform: uppercase;
     font-size: 0.8rem;
+    margin-bottom: 1rem;
 }
 
-/* .card__item {
-
-} */
+.card__item {
+    margin-bottom: 1rem;
+}
 
 .card__precio {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .card__pago {
     color: var(--colorTexto4);
-    font-size: 0.6rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 

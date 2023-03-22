@@ -21,13 +21,15 @@
 
 .footer__item {
     list-style: none;
+    margin-bottom: 0.4rem;
 }
 
 .footer__link {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--colorTexto);
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+    
 }
 
 .footer__imagen {
@@ -36,5 +38,6 @@
 
 .footer__derechos {
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
 }

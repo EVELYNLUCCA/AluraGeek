@@ -9,13 +9,13 @@
 }
 
 .logo{
-    width: 15%;
+    width: 25%;
     padding-left: 4rem;
 }
 
 .nav__container {
     display: flex;
-    width: 25%;
+    width: 35%;
     padding-right: 4rem;
     justify-content: space-between
 }
@@ -32,11 +32,35 @@
     list-style: none;
 }
 
-.nav__link {
+.nav__icono {
+    transform: rotate(270deg);
+    width: 10%;
+    margin-left: 0.1rem;
+}
+
+.nav__link, .subnav__link {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--colorTexto);
-    font-size: 0.75rem;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.nav__subnav {
+    display: none;
+    position: absolute;
+    width: 12%;
+    background-color: var(--colorFondo);
+}
+
+.subnav__item {
+    float: none;
+    list-style: none;
+    margin: 1rem;
+}
+
+.nav__item--submenu:hover > .nav__subnav {
+    display: block;
 }
 
 .icono {
