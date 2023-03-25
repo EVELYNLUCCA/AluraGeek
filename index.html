@@ -20,63 +20,29 @@
 </head>
 <body>
     <header class="header">
-            <img class="logo" src="./multimedia/branding/logo_light_horizontal.svg" alt="logo">
+        <div class="logo__container">
+            <img class="logo" src="./multimedia/icons/Vector logo AluraGeek.png" alt="logo">
+            <img class="logo__palabra" src="./multimedia/icons/Alura palabra.png" alt="alura">
+            <img class="logo__palabra logo__palabra--geek" src="./multimedia/icons/Geek palabra.png" alt="geek">
+        </div>
 
-        <div class="nav__container">
-            <ul class="nav">
-                <li class="nav__item nav__item--submenu">
-                    <a class="nav__link" href="#">shop
-                        <img class="nav__icono" src="./multimedia/icons/Vector.webp" alt="flecha">
-                    </a>
-                    <ul class="nav__subnav">
-                        <li class="subnav__item"><a class="subnav__link" href="#">coleccion</a></li>
-                        <li class="subnav__item"><a class="subnav__link" href="#">figuras</a></li>
-                    </ul>
-                </li>
-                <li class="nav__item"><a class="nav__link" href="#">contacto</a></li>
-                <li class="nav__item"><a class="nav__link" href="#">login</a></li>
-            </ul>
-            <img class="icono" src="./multimedia/icons/cart-icon.svg" alt="carrito">
-        </div>    
+        <div class="busqueda__container">
+            <input class="busqueda__input" type="search" placeholder="¿Qué deseas buscar?">
+            <img class="busqueda__imagen" src="/multimedia/icons/search_icon.svg" alt="lupa">
+        </div>
+        
+        <button class="boton__login">
+            <a class="boton__link" href="#">login</a>
+        </button>
     </header>
 
     <main>
         <section class="banner">
             <div class="banner__imagen">
                 <div class="banner__descripcion">
-                    <h2 class="banner__titulo">nuevos ingresos</h2>
-                    <p class="banner__texto">Descubrí el próximo Funko Pop de tu colección</p>
+                    <h2 class="banner__titulo">Febrero Promocional</h2>
+                    <p class="banner__texto">Productos selecionados con 33% de descuento</p>
                     <button class="banner__boton">shop</button>
-                </div>
-            </div>
-        </section>
-
-        <section class="colecciones">
-            <div class="coleccion">
-                <img src="./multimedia/star-wars/baby-yoda-1.webp" alt="bebe yoda" class="coleccion__imagen">
-                <div class="coleccion__descripcion">
-                    <h2 class="descripcion__titulo">star wars &<br>the mandalorian</h2>
-                    <p class="descripcion__texto">Disfruta de una saga que sigue agregando personajes a su colección.</p>
-                    <hr class="descripcion__linea">
-                    <button class="descripcion__boton">ver colección</button>
-                </div>
-            </div>
-            <div class="coleccion coleccion--reverse">
-                <img src="./multimedia/pokemon/vulpix-1.webp" alt="vulpix" class="coleccion__imagen">
-                <div class="coleccion__descripcion">
-                    <h2 class="descripcion__titulo">pokemon indigo</h2>
-                    <p class="descripcion__texto">Atrapa todos los que puedas y disfruta de una colección llena de amigos.</p>
-                    <hr class="descripcion__linea">
-                    <button class="descripcion__boton">ver colección</button>
-                </div>
-            </div>
-            <div class="coleccion">
-                <img src="./multimedia/harry-potter/snape-patronus-1.webp" alt="" class="coleccion__imagen">
-                <div class="coleccion__descripcion">
-                    <h2 class="descripcion__titulo">harry potter</h2>
-                    <p class="descripcion__texto">Revive los recuerdos de una saga llena de magia y encanto.</p>
-                    <hr class="descripcion__linea">
-                    <button class="descripcion__boton">ver colección</button>
                 </div>
             </div>
         </section>
@@ -118,6 +84,44 @@
                 <button class="novedades__flecha novedades__flecha--derecha"><img class="flecha flecha--derecha" src="./multimedia/icons/Vector-1-_Stroke_.webp" alt="flecha"></button>
             </div>
         </section>
+
+
+    <section class="novedades">
+        <div class="novedades__contenedor">
+            <button class="novedades__flecha novedades__flecha--izquierda"><img class="flecha flecha--izquierda" src="./multimedia/icons/Vector-1-_Stroke_.webp" alt="flecha"></button>
+            <div class="novedades__card">
+                <p class="card__etiqueta">nuevo</p>
+                <img src="./multimedia/star-wars/trooper-1.webp" alt="trooper" class="card__imagen">
+                <div class="card__descripcion">
+                    <p class="card__coleccion">star wars</p>
+                    <h4 class="card__item">STORMTROOPER LIGHTSABER</h4>
+                    <p class="card__precio">$ 1799,99.-</p>
+                    <p class="card__pago">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <div class="novedades__card">
+                <p class="card__etiqueta">nuevo</p>
+                <img src="./multimedia/pokemon/pidgeotto-1.webp" alt="pidgeotto" class="card__imagen">
+                <div class="card__descripcion">
+                    <p class="card__coleccion">pokemon</p>
+                    <h4 class="card__item">PIDGEOTTO</h4>
+                    <p class="card__precio">$ 1799,99.-</p>
+                    <p class="card__pago">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <div class="novedades__card">
+                <p class="card__etiqueta">nuevo</p>
+                <img src="./multimedia/harry-potter/luna-1.webp" alt="luna" class="card__imagen">
+                <div class="card__descripcion">
+                    <p class="card__coleccion">harry potter</p>
+                    <h4 class="card__item">LUNA LOVEGOOD LION MASK</h4>
+                    <p class="card__precio">$ 1799,99.-</p>
+                    <p class="card__pago">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <button class="novedades__flecha novedades__flecha--derecha"><img class="flecha flecha--derecha" src="./multimedia/icons/Vector-1-_Stroke_.webp" alt="flecha"></button>
+        </div>
+    </section>
     </main>
 
     <footer class="footer">
@@ -128,7 +132,7 @@
                 <li class="footer__item"><a class="footer__link" href="#">ingresar</a></li>
                 <li class="footer__item"><a class="footer__link" href="#">contacto</a></li>
             </ul>
-            <img class="footer__imagen" src="./multimedia/branding/isotype.svg" alt="logo footer">
+            <img class="footer__imagen" src="./multimedia/icons/Vector logo AluraGeek.png" alt="logo footer">
         </div>
         <p class="footer__derechos">All rights reserved 2022 - Funkoshop &copy;</p>
     </footer>

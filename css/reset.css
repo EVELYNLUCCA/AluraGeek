@@ -1,8 +1,10 @@
 :root {
     --colorTexto: #FFFFFF;
+    --colorFondoInput: #F5F5F5;
     --colorTexto2: #111111;
     --colorTexto3: #333333;
     --colorTexto4: #1D84B5;
+    --colorBoton: #2A7AE4;
     --colorFondo: #30343F;
     --colorDetalles: #FF3333;
 

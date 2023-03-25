@@ -1,42 +1,59 @@
 .banner {
     width: 100%;
-    height: 27vw;
+    height: 80Vh;
     display: flex;
     top: 0
 }
 
 .banner__imagen {
-    background: url('../multimedia/funkos-banner.webp');
+    background: url('../multimedia/bannerChampi.jpg');
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* opacity: 0.8; */
+    background-position: center;
+    background-position-x: 20%;
+    display: flex;
+    align-items: center;
 }
 
 .banner__descripcion {
-    width: 28%;
+    width: 50%;
     height: 12vw;
     margin-left: 6rem;
-    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .banner__titulo {
-    text-transform: capitalize;
+    text-transform: uppercase;
+    font-size: 6rem;
     color: var(--colorTexto);
-    margin: 0;
+    margin-bottom: 2rem;
 }
 
 .banner__texto {
     color: var(--colorTexto);
-    font-size: 12px;
+    font-size: 3rem;
     margin-top: 7px;
-    margin-bottom: 30px;
+    margin-bottom: 4rem;
 }
 
 .banner__boton {
-    width: 50%;
-    background-color: var(--colorTexto);
-    border: none;
+    width: 30%;
+    height: 10vh;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: var(--colorBoton);
+    color: var(--colorTexto);
+    border: 1px solid var(--colorTexto);
     border-radius: 50px;
-    padding: 0.4rem;
     text-transform: uppercase;
+    padding: 1.5rem;
+}
+
+.banner__boton:hover {
+    background-color: var(--colorTexto);
+    color: var(--colorBoton);
+    border: 1px solid var(--colorBoton);
 }
