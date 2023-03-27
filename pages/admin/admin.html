@@ -11,38 +11,39 @@
 
     <!-- LINK CSS -->
     <link rel="stylesheet" href="../../css/reset.css">
-    <link rel="stylesheet" href="../../css/admin/headerAdmin.css">
+    <link rel="stylesheet" href="../../css/header.css">
     <link rel="stylesheet" href="../../css/admin/admin.css">
     <link rel="stylesheet" href="../../css/footer.css">
 
     <title>admin</title>
 </head>
 <body>
-    <header class="header__admin">
-        <img class="logo" src="../../multimedia/branding/logo_light_horizontal.svg" alt="logo">
+    <header class="header">
+        <div class="logo__container">
+            <img class="logo" src="../../multimedia/icons/Vector logo AluraGeek.png" alt="logo">
+            <img class="logo__palabra" src="../../multimedia/icons/Alura palabra.png" alt="alura">
+            <img class="logo__palabra logo__palabra--geek" src="../../multimedia/icons/Geek palabra.png" alt="geek">
+        </div>
 
-    <div class="nav__container">
-        <a class="nav__link" href="#">salir</a>
-    </div>    
-</header>
+        <div class="busqueda__container">
+            <input class="busqueda__input" type="search" placeholder="código, nombre o categoria">
+            <img class="busqueda__imagen" src="../../multimedia/icons/search_icon.svg" alt="lupa">
+        </div>
+        
+        <button class="boton__login">
+            <a class="boton__link" href="../../index.html">salir</a>
+        </button>
+    </header>
     
 <main>
-    <div class="busqueda">
-        <img  class="busqueda__icono" src="../../multimedia/icons/search_icon.svg" alt="lupa">
-        <input class="busqueda__input" type="search" name="" id="" placeholder="código, nombre o categoria">
-    </div>
-
     <section class="listado">
         <div class="listado__encabezado">
             <h2 class="listado__titulo">listado de productos</h2>
-            <form class="listado__agregar" action="">
-                <label class="listado__label" for="">agregar</label>
-                <button class="listado__boton" type="submit">+</button>
-            </form>
+            <button class="listado__subtitulo">agregar ➕</button>
         </div>
 
         <table class="tabla">
-            <tr class="tabla__row">
+            <tr class="tabla__row row__cabecera">
                 <th class="tabla__cabecera">ID</th>
                 <th class="tabla__cabecera">codigo</th>
                 <th class="tabla__cabecera">nombre del producto</th>
@@ -55,27 +56,22 @@
                 <td class="tabla__datos"></td>
                 <td class="tabla__datos"></td>
                 <td class="tabla__datos"></td>
-                <td class="tabla__datos"><img src="../../multimedia/icons/edit_pencil.svg" alt=""></td>
-                <td class="tabla__datos"><img src="../../multimedia/icons/delete_trash.svg" alt=""></td>
+                <td class="tabla__datos editar"><img src="../../multimedia/icons/edit_pencil.svg" alt=""></td>
+                <td class="tabla__datos borrar"><img src="../../multimedia/icons/delete_trash.svg" alt=""></td>
             </tr>
         </table>
     </section>
-    
-
-    
 </main>
 
-<footer class="footer">
+<footer class="footer footer__admin">
     <div class="footer__contenedor">
-        <ul class="footer__lista">
-            <li class="footer__item"><a class="footer__link" href="#">shop</a></li>
-            <li class="footer__item"><a class="footer__link" href="#">registrarse</a></li>
-            <li class="footer__item"><a class="footer__link" href="#">ingresar</a></li>
-            <li class="footer__item"><a class="footer__link" href="#">contacto</a></li>
-        </ul>
-        <img class="footer__imagen" src="../../multimedia/branding/isotype.svg" alt="logo footer">
+        <div>
+            <img class="logo" src="../../multimedia/icons/Vector logo AluraGeek.png" alt="logo">
+            <img class="logo__palabra" src="../../multimedia/icons/Alura palabra.png" alt="alura">
+            <img class="logo__palabra logo__palabra--geek" src="../../multimedia/icons/Geek palabra.png" alt="geek">
+        </div>
     </div>
-    <p class="footer__derechos">All rights reserved 2022 - Funkoshop &copy;</p>
-</footer>  
+    <p class="footer__derechos">All rights reserved 2023 - AluraGeek &copy;</p>
+</footer> 
 </body>
 </html>

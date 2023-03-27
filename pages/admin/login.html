@@ -18,31 +18,30 @@
     <title>login</title>
 </head>
 <body>
-    <header class="header__admin">
-        <header class="header">
-            <div class="logo__container">
-                <img class="logo" src="../../multimedia/icons/Vector logo AluraGeek.png" alt="logo">
-                <img class="logo__palabra" src="../../multimedia/icons/Alura palabra.png" alt="alura">
-                <img class="logo__palabra logo__palabra--geek" src="../../multimedia/icons/Geek palabra.png" alt="geek">
-            </div>
-            
-            <button class="boton__login">
-                <a class="boton__link" href="#">salir</a>
-            </button>
-        </header>
+    <header class="header">
+        <div class="logo__container">
+            <img class="logo" src="../../multimedia/icons/Vector logo AluraGeek.png" alt="logo">
+            <img class="logo__palabra" src="../../multimedia/icons/Alura palabra.png" alt="alura">
+            <img class="logo__palabra logo__palabra--geek" src="../../multimedia/icons/Geek palabra.png" alt="geek">
+        </div>
+        
+        <button class="boton__login">
+            <a class="boton__link" href="../../index.html">salir</a>
+        </button>
+    </header>
     
 <main>
     <section class="login">
         <h2 class="login__titulo">ingresar</h2>
         <form class="login__form" action="">
-            <label class="login__label" for="">Email:</label>
-            <input class="login__input" type="email">
-            <label class="login__label" for="">Contraseña</label>
-            <input class="login__input" type="password">
+            <label class="login__label" for="correo">Email:</label>
+            <input class="login__input" type="email" name="correo" required autofocus>
+            <label class="login__label" for="contrasenia">Contraseña</label>
+            <input class="login__input" type="password" name="contrasenia" required>
             <button class="login__boton">ingresar</button>
             <fieldset class="login__check">
-                <input class="login__input" type="checkbox" name="" id="">
-                <label class="login__label" for="">Recordarme</label>
+                <input class="login__input" type="checkbox" name="check" id="">
+                <label class="login__label" for="check">Recordarme</label>
             </fieldset>
             <a class="login__link" href="#">Olvidé mi Contraseña</a>
         </form>

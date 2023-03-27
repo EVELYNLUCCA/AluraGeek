@@ -10,6 +10,10 @@ align-items: center;
 justify-content: center;
 }
 
+.footer__admin {
+    height: 15vh;
+}
+
 .footer__contenedor {
     display: flex;
     width: 90%;
