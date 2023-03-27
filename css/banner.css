@@ -45,8 +45,8 @@
     font-size: 1.5rem;
     font-weight: 700;
     background-color: var(--colorBoton);
-    color: var(--colorTexto);
     border: 1px solid var(--colorTexto);
+    color: var(--colorTexto);
     border-radius: 50px;
     text-transform: uppercase;
     padding: 1.5rem;
@@ -54,6 +54,6 @@
 
 .banner__boton:hover {
     background-color: var(--colorTexto);
-    color: var(--colorBoton);
     border: 1px solid var(--colorBoton);
+    color: var(--colorBoton);
 }

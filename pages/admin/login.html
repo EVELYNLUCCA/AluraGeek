@@ -11,20 +11,24 @@
 
     <!-- LINK CSS -->
     <link rel="stylesheet" href="../../css/reset.css">
-    <link rel="stylesheet" href="../../css/admin/headerAdmin.css">
-
+    <link rel="stylesheet" href="../../css/header.css">
     <link rel="stylesheet" href="../../css/footer.css">
 
     <title>login</title>
 </head>
 <body>
     <header class="header__admin">
-        <img class="logo" src="../../multimedia/branding/logo_light_horizontal.svg" alt="logo">
-
-    <div class="nav__container">
-        <a class="nav__link" href="#">salir</a>
-    </div>    
-</header>
+        <header class="header">
+            <div class="logo__container">
+                <img class="logo" src="../../multimedia/icons/Vector logo AluraGeek.png" alt="logo">
+                <img class="logo__palabra" src="../../multimedia/icons/Alura palabra.png" alt="alura">
+                <img class="logo__palabra logo__palabra--geek" src="../../multimedia/icons/Geek palabra.png" alt="geek">
+            </div>
+            
+            <button class="boton__login">
+                <a class="boton__link" href="#">salir</a>
+            </button>
+        </header>
     
 <main>
     <div>
@@ -45,14 +49,28 @@
 <footer class="footer">
     <div class="footer__contenedor">
         <ul class="footer__lista">
-            <li class="footer__item"><a class="footer__link" href="#">shop</a></li>
-            <li class="footer__item"><a class="footer__link" href="#">registrarse</a></li>
-            <li class="footer__item"><a class="footer__link" href="#">ingresar</a></li>
-            <li class="footer__item"><a class="footer__link" href="#">contacto</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Quienes somos</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Política de privacidad</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Programa de fidelidad</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Nuestras tiendas</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Quiero ser franquiciado</a></li<>
+            <li class="footer__item"><a class="footer__link" href="#">Anuncie aquí</a></li>
         </ul>
-        <img class="footer__imagen" src="../../multimedia/branding/isotype.svg" alt="logo footer">
+        
+        <form action="" class="footer__form">
+            <legend class="form__legend">Hable con nosotros</legend>
+            <input type="text" class="form__input" placeholder="Nombre">
+            <textarea name="" id="" cols="30" rows="10" class="form__textarea" placeholder="Escribe tu mensaje"></textarea>
+            <button class="form__boton">Enviar mensaje</button>
+        </form>
+        <div>
+            <img class="logo" src="../../multimedia/icons/Vector logo AluraGeek.png" alt="logo">
+            <img class="logo__palabra" src="../../multimedia/icons/Alura palabra.png" alt="alura">
+            <img class="logo__palabra logo__palabra--geek" src="../../multimedia/icons/Geek palabra.png" alt="geek">
+        </div>
     </div>
-    <p class="footer__derechos">All rights reserved 2022 - Funkoshop &copy;</p>
-</footer>  
+    <p class="footer__derechos">All rights reserved 2023 - AluraGeek &copy;</p>
+</footer>
+
 </body>
 </html>

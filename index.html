@@ -28,7 +28,7 @@
 
         <div class="busqueda__container">
             <input class="busqueda__input" type="search" placeholder="¿Qué deseas buscar?">
-            <img class="busqueda__imagen" src="/multimedia/icons/search_icon.svg" alt="lupa">
+            <img class="busqueda__imagen" src="./multimedia/icons/search_icon.svg" alt="lupa">
         </div>
         
         <button class="boton__login">
@@ -42,13 +42,13 @@
                 <div class="banner__descripcion">
                     <h2 class="banner__titulo">Febrero Promocional</h2>
                     <p class="banner__texto">Productos selecionados con 33% de descuento</p>
-                    <button class="banner__boton">shop</button>
+                    <button class="banner__boton">ver consolas</button>
                 </div>
             </div>
         </section>
 
         <section class="novedades">
-            <h2 class="novedades__titulo">últimos lanzamientos</h2>
+            <h2 class="novedades__titulo">star wars</h2>
             <div class="novedades__contenedor">
                 <button class="novedades__flecha novedades__flecha--izquierda"><img class="flecha flecha--izquierda" src="./multimedia/icons/Vector-1-_Stroke_.webp" alt="flecha"></button>
                 <div class="novedades__card">
@@ -87,6 +87,45 @@
 
 
     <section class="novedades">
+        <h2 class="novedades__titulo">diversos</h2>
+        <div class="novedades__contenedor">
+            <button class="novedades__flecha novedades__flecha--izquierda"><img class="flecha flecha--izquierda" src="./multimedia/icons/Vector-1-_Stroke_.webp" alt="flecha"></button>
+            <div class="novedades__card">
+                <p class="card__etiqueta">nuevo</p>
+                <img src="./multimedia/star-wars/trooper-1.webp" alt="trooper" class="card__imagen">
+                <div class="card__descripcion">
+                    <p class="card__coleccion">star wars</p>
+                    <h4 class="card__item">STORMTROOPER LIGHTSABER</h4>
+                    <p class="card__precio">$ 1799,99.-</p>
+                    <p class="card__pago">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <div class="novedades__card">
+                <p class="card__etiqueta">nuevo</p>
+                <img src="./multimedia/pokemon/pidgeotto-1.webp" alt="pidgeotto" class="card__imagen">
+                <div class="card__descripcion">
+                    <p class="card__coleccion">pokemon</p>
+                    <h4 class="card__item">PIDGEOTTO</h4>
+                    <p class="card__precio">$ 1799,99.-</p>
+                    <p class="card__pago">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <div class="novedades__card">
+                <p class="card__etiqueta">nuevo</p>
+                <img src="./multimedia/harry-potter/luna-1.webp" alt="luna" class="card__imagen">
+                <div class="card__descripcion">
+                    <p class="card__coleccion">harry potter</p>
+                    <h4 class="card__item">LUNA LOVEGOOD LION MASK</h4>
+                    <p class="card__precio">$ 1799,99.-</p>
+                    <p class="card__pago">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <button class="novedades__flecha novedades__flecha--derecha"><img class="flecha flecha--derecha" src="./multimedia/icons/Vector-1-_Stroke_.webp" alt="flecha"></button>
+        </div>
+    </section>
+
+    <section class="novedades">
+        <h2 class="novedades__titulo">consolas</h2>
         <div class="novedades__contenedor">
             <button class="novedades__flecha novedades__flecha--izquierda"><img class="flecha flecha--izquierda" src="./multimedia/icons/Vector-1-_Stroke_.webp" alt="flecha"></button>
             <div class="novedades__card">
@@ -127,14 +166,27 @@
     <footer class="footer">
         <div class="footer__contenedor">
             <ul class="footer__lista">
-                <li class="footer__item"><a class="footer__link" href="#">shop</a></li>
-                <li class="footer__item"><a class="footer__link" href="#">registrarse</a></li>
-                <li class="footer__item"><a class="footer__link" href="#">ingresar</a></li>
-                <li class="footer__item"><a class="footer__link" href="#">contacto</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Quienes somos</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Política de privacidad</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Programa de fidelidad</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Nuestras tiendas</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Quiero ser franquiciado</a></li<>
+                <li class="footer__item"><a class="footer__link" href="#">Anuncie aquí</a></li>
             </ul>
-            <img class="footer__imagen" src="./multimedia/icons/Vector logo AluraGeek.png" alt="logo footer">
+            
+            <form action="" class="footer__form">
+                <legend class="form__legend">Hable con nosotros</legend>
+                <input type="text" class="form__input" placeholder="Nombre">
+                <textarea name="" id="" cols="30" rows="10" class="form__textarea" placeholder="Escribe tu mensaje"></textarea>
+                <button class="form__boton">Enviar mensaje</button>
+            </form>
+            <div>
+                <img class="logo" src="./multimedia/icons/Vector logo AluraGeek.png" alt="logo">
+                <img class="logo__palabra" src="./multimedia/icons/Alura palabra.png" alt="alura">
+                <img class="logo__palabra logo__palabra--geek" src="./multimedia/icons/Geek palabra.png" alt="geek">
+            </div>
         </div>
-        <p class="footer__derechos">All rights reserved 2022 - Funkoshop &copy;</p>
+        <p class="footer__derechos">All rights reserved 2023 - AluraGeek &copy;</p>
     </footer>
     
 </body>

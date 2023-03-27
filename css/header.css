@@ -54,7 +54,6 @@
     background-color: var(--colorTexto);
     border: 1px solid var(--colorBoton);
     border-radius: 20px;
-    /* margin-right: 8rem; */
 }
 
 .boton__link {
