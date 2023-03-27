@@ -57,3 +57,12 @@
     border: 1px solid var(--colorBoton);
     color: var(--colorBoton);
 }
+
+.banner__link {
+    text-decoration: none;
+    color: var(--colorTexto);
+}
+
+.banner__boton:hover .banner__link {
+    color: var(--colorBoton);
+}
